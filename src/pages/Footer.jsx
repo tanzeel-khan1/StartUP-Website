@@ -98,7 +98,7 @@ const Footer = () => {
 
         <div className="mt-12 border-t border-gray-800 pt-6 text-center text-gray-400 text-sm">
           Developed by{" "}
-          <span className="text-purple-700 font-medium hover:text-white transition-colors">
+          <span className="text-purple-700 font-medium hover:text-purple-900 transition-colors">
             Tanzeel
           </span>
         </div>
