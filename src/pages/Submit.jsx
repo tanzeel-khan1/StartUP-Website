@@ -18,12 +18,17 @@ const AIPromotionSection = () => {
   };
 
   const handleSubmit = () => {
-    if (email.trim() === "") {
-      toast.error("Please enter an email before submitting.");
-      return;
-    }
-    toast.success("Your email is submitted!");
-  };
+  if (email.trim() === "") {
+    toast.error("Please enter an email before submitting.");
+    return;
+  }
+
+  toast.success("Your email is submitted!");
+
+  setEmail("");
+  localStorage.removeItem("userEmail");
+};
+
 
   return (
     <div className="h-screen w-full bg-black flex justify-center items-center px-4 sm:px-8">

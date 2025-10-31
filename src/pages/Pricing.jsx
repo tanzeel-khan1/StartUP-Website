@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const PricingSection = () => {
-  // animation variants
   const cardVariants = {
     hidden: { opacity: 0, y: 60 },
     visible: (i) => ({
@@ -23,7 +22,6 @@ const PricingSection = () => {
     >
       <div className="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
 
-      {/* Heading */}
       <div className="relative z-10 text-center mb-12">
         <h2 className="text-4xl font-semibold mb-3">Pricing</h2>
         <p className="text-gray-400 max-w-lg mx-auto">
