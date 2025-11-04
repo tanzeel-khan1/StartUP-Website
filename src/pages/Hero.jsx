@@ -48,8 +48,8 @@ function Hero() {
 
   return (
     <>
-      <div className="min-h-screen w-full bg-gradient-to-b from-black via-[#4D3763] via-40% via-[#602A9A] to-[#9855FF] flex flex-col items-center px-4 sm:px-6 lg:px-12 py-16">
-        {/* Banner */}
+      <div className="min-h-screen w-full bg-gradient-to-b from-black via-[#602A9A] to-[#9855FF]
+ flex flex-col items-center px-4 sm:px-6 lg:px-12 py-16">
         <motion.div
           variants={fadeUp}
           initial="hidden"
@@ -63,7 +63,6 @@ function Hero() {
           Latest integration just arrived
         </motion.div>
 
-        {/* Headings */}
         <motion.h1
           variants={fadeUp}
           initial="hidden"
@@ -84,7 +83,6 @@ function Hero() {
           Rankings With ME.
         </motion.h1>
 
-        {/* Subtext */}
         <motion.div
           variants={fadeUp}
           initial="hidden"
@@ -100,7 +98,6 @@ function Hero() {
           </p>
         </motion.div>
 
-        {/* CTA */}
         <motion.button
           variants={fadeUp}
           initial="hidden"
@@ -111,7 +108,6 @@ function Hero() {
           Start For Free
         </motion.button>
 
-        {/* Dashboard */}
         <motion.div
           variants={fadeIn}
           initial="hidden"
@@ -151,9 +147,7 @@ function Hero() {
                 </nav>
               </motion.div>
 
-              {/* Main Content */}
               <div className="flex-1">
-                {/* Header */}
                 <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 gap-4">
                   <div>
                     <motion.h1
@@ -181,7 +175,6 @@ function Hero() {
                   </div>
                 </div>
 
-                {/* Stats Grid */}
                 <motion.div
                   variants={fadeUp}
                   initial="hidden"
@@ -259,7 +252,6 @@ function Hero() {
                     </div>
                   </motion.div>
 
-                  {/* Keywords */}
                   <motion.div
                     variants={fadeUp}
                     className="bg-black/30 rounded-2xl p-6 backdrop-blur-sm border border-white/10"
@@ -299,7 +291,6 @@ function Hero() {
                     </div>
                   </motion.div>
 
-                  {/* Traffic */}
                   <motion.div
                     variants={fadeUp}
                     className="bg-black/30 rounded-2xl p-6 backdrop-blur-sm border border-white/10 md:col-span-2"
