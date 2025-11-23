@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 const SeoDashboardSection = () => {
   return (
     <section className="w-full bg-black flex flex-col md:flex-row items-center justify-center py-20 px-6 md:px-12 text-white gap-10 overflow-hidden">
-
       <motion.div
         initial={{ opacity: 0, x: -60 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -13,7 +12,7 @@ const SeoDashboardSection = () => {
         className="md:w-1/3 flex flex-col items-center md:items-start text-center md:text-left"
       >
         <img
-          src="Visual.png" 
+          src="Visual.png"
           alt="SEO Goal Setting"
           className="w-52 h-52 object-contain mb-6"
         />
@@ -60,7 +59,8 @@ const SeoDashboardSection = () => {
         >
           <p className="text-xs text-gray-400 mb-1">Visibility</p>
           <h2 className="text-2xl font-bold">
-            10.15% <span className="text-green-400 text-sm font-normal">+5.6%</span>
+            10.15%{" "}
+            <span className="text-green-400 text-sm font-normal">+5.6%</span>
           </h2>
           <div className="w-full h-16 bg-gradient-to-r from-[#4b1a77] to-[#6e29b3] rounded-lg mt-3 relative">
             <div className="absolute left-3 bottom-2 text-[10px] text-gray-400">
