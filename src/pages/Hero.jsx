@@ -48,8 +48,10 @@ function Hero() {
 
   return (
     <>
-      <div className="min-h-screen w-full bg-gradient-to-b from-black via-[#602A9A] to-[#9855FF]
- flex flex-col items-center px-4 sm:px-6 lg:px-12 py-16">
+      <div
+        className="min-h-screen w-full bg-gradient-to-b from-black via-[#602A9A] to-[#9855FF]
+ flex flex-col items-center px-4 sm:px-6 lg:px-12 py-16"
+      >
         <motion.div
           variants={fadeUp}
           initial="hidden"

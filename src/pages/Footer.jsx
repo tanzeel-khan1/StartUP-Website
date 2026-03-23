@@ -27,6 +27,7 @@ const Footer = () => {
     },
   ];
 
+  
   const NavColumn = ({ title, links }) => (
     <div>
       <h4 className="text-sm font-semibold mb-4 text-gray-300">{title}</h4>

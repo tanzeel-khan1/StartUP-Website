@@ -5,8 +5,7 @@ function Navbar() {
 
   return (
     <nav className="w-full bg-black text-white relative z-50  border-b-[0.5px] border-white/60">
-<div className="flex items-center justify-center min-h-[72px] px-4 md:px-8 lg:px-16 py-4 ">
-
+      <div className="flex items-center justify-center min-h-[72px] px-4 md:px-8 lg:px-16 py-4 ">
         <div className="absolute left-6 md:left-12 lg:left-24 ml-1 md:ml-40">
           <img src="Logo.png" alt="Logo" className="h-8 md:h-10" />
         </div>
@@ -21,7 +20,7 @@ function Navbar() {
                   >
                     {item}
                   </li>
-                )
+                ),
               )}
             </ul>
           </div>
@@ -85,7 +84,7 @@ function Navbar() {
               >
                 {item}
               </li>
-            )
+            ),
           )}
         </ul>
       </div>
